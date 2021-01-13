@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {StyleSheet, Text, SafeAreaView, View, FlatList} from "react-native"
+import {StyleSheet, Text, SafeAreaView, View, FlatList, Button, TouchableOpacity, Platform} from "react-native"
 import axios from 'axios'
 
 export default class HomeScreen extends Component {
@@ -12,10 +12,10 @@ export default class HomeScreen extends Component {
 
 	componentDidMount() {	// Called at the beginning of the app
 		axios.get(`http://jsonplaceholder.typicode.com/posts`)
-			.then(res => {
-				const dataSource = res.data
-				this.setState({dataSource})
-			})
+		.then(res => {
+			const dataSource = res.data
+			this.setState({dataSource})
+		})
 	}
 
 	renderItem = ({item}) => {
@@ -27,12 +27,14 @@ export default class HomeScreen extends Component {
 
 	render() {	// Make the UI
 		return <SafeAreaView style = {{padding:15}}>
-			<FlatList // component to scroll the data list
-				padding = {25}
-				data = {this.state.dataSource}
-				renderItem = {this.renderItem}
-				keyExtractor = {(item, index) => index.toString()}
-			/>
+			<TouchableOpacity onPress={() => {this.props.navigation.navigate('DETAILS')}} activeOpacity={0.7}>
+				<FlatList // component to scroll the data list
+					padding = {25}
+					data = {this.state.dataSource}
+					renderItem = {this.renderItem}
+					keyExtractor = {(item, index) => index.toString()}
+				/>
+			</TouchableOpacity>
 		</SafeAreaView>
 	}
 }

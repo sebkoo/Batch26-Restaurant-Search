@@ -1,24 +1,33 @@
 import React from "react";
-import { View , Text, StyleSheet, Button } from "react-native";
+import { StyleSheet, useWindowDimensions } from "react-native";
+import MapView from 'react-native-maps'
 
-function LocationScreen({navigation}) {
-	return <View style={styles.content}>
-		<Text style={{fontSize: 30}}>Welcome to Slurp</Text>
-		<Text style={{fontSize: 20}}>How do you want your order?</Text>
-		<Button
-			title = 'Search for Locations'
-			// onPress={() => navigation.navigate('')}
+export default function LocationScreen() {
+	return <MapView
+			style={{flex: 1}}
+			initialRegion={{
+				latitude: 37.78825,
+				longitude: -122.4324,
+				latitudeDelta: 0.05,
+				longitudeDelta: 0.05
+			}}
 		/>
-	</View>
 };
 
 const styles = StyleSheet.create({
-	content: {
+	container: {
 		flex: 1,
-		flexDirection: 'column',
-		justifyContent: 'center',
+		backgroundColor: '#F5FCFF',
 		alignItems: 'center',
-	}
+		justifyContent: 'center',
+	},
+	welcome: {
+		fontSize: 20,
+		textAlign: 'center',
+		margin: 10
+	},
+	map: {
+		width: useWindowDimensions.width,
+		height: useWindowDimensions.height,
+	},
 });
-
-export default LocationScreen;

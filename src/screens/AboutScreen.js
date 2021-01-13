@@ -1,10 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import { View , Text, StyleSheet } from "react-native";
+import { WebView } from 'react-native-webview'
 
-function AboutScreen() {
-	return <View style={styles.content}>
-		<Text style={{fontSize: 30}}>Slupr connects foodies with awesome local restaurants</Text>
-	</View>
+class AboutScreen extends Component {
+	render() {
+		return <WebView
+			source={{uri: 'https://about.fb.com/'}}
+			style={{marginTop: 20}}
+		/>
+	}
 };
 
 const styles = StyleSheet.create({

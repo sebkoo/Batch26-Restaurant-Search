@@ -1,20 +1,51 @@
-import React from "react";
-import { View , Text, StyleSheet } from "react-native";
+import React, { Component } from "react";
+import { View , Text, StyleSheet, Button, Platform, Linking, TouchableOpacity } from "react-native";
+import RowLayout from "../components/RowLayout";
 
-function ContactScreen() {
-	return <View style={styles.content}>
-		<Text style={{fontSize: 30}}>Thank you for reaching out!</Text>
-		<Text style={{fontSize: 20}}>We look forward to getting back to you.</Text>
-	</View>
+export default class ContactScreen extends Component {
+	dialCall = () => {
+		let phoneNum = ''
+		if (Platform.OS === 'android') {
+			phoneNum = 'tel:${1234567890}'
+		} else { phoneNum = `telprompt:${1234567890}` }
+		Linking.canOpenURL(phoneNum)
+			.then((supported) => {
+				if (supported) {
+					return Linking.openURL(phoneNum)
+						.catch(() => null)
+				}
+			})
+	}
+
+	render() {
+		return <View style={styles.container}>
+			<RowLayout
+				title={'Email'}
+				body={'Info@gmail.com'}
+				photo={require('../../assets/email.png')}
+			/>
+			<TouchableOpacity onPress={this.dialCall} activeOpacity={0.7}>
+				<RowLayout
+					title={'Phone'}
+					body={'(123)654-4673'}
+					photo={require('../../assets/phone.png')}
+				/>
+			</TouchableOpacity>
+			<RowLayout
+				title={'Message'}
+				body={'Is there any way to be awarded much for the Project?'}
+				photo={require('../../assets/message.png')}
+			/>
+			<Button title='SEND'/>
+		</View>
+	}
 };
 
 const styles = StyleSheet.create({
-	content: {
+	container: {
 		flex: 1,
-		flexDirection: 'column',
-		justifyContent: 'center',
-		alignItems: 'center',
+		// flexDirection: 'column',
+		// justifyContent: 'center',
+		// alignItems: 'center',
 	}
 });
-
-export default ContactScreen;
