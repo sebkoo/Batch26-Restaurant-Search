@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import {SafeAreaView, Text, StyleSheet, Image, TouchableOpacity} from "react-native";
+import {SafeAreaView, Text, StyleSheet, Image, TouchableOpacity, Button, View} from "react-native";
 
 export default class PrivacyScreen extends Component {
 	render() {
-		return <SafeAreaView style = {{padding:15}}>
+		return <SafeAreaView style = {{flex: 1, flexDirection: 'column'}}>
 			<Image
 				source={require('../../assets/order.png')}
-				style={{width: 500, height: 500}}/>
-			<TouchableOpacity
-				onPress = { () => { this.props.navigation.navigate('Type') } }
-				style   = {{padding:30}} >
-				<Text>Start new order</Text>
-			</TouchableOpacity>
+				style={{width: 550, height: 600}}/>
+			<Button
+				title='Start new order'
+				// style={}
+				onPress={ () => this.props.navigation.navigate('Type') }
+			/>
 		</SafeAreaView>
 	}
 };

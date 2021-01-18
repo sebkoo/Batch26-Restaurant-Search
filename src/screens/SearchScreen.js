@@ -6,11 +6,15 @@ import {
 	FlatList,
 	ActivityIndicator,
 	Image,
-	TextInput
+	TextInput,
+	TouchableOpacity,
+	SafeAreaView
 } from 'react-native';
 import filter from 'lodash.filter';
 
-export default function SearchScreen() {
+const API_ENDPOINT = `https://randomuser.me/api/?seed=1&page=1&results=20`
+
+export default function SearchScreen(props) {
 	const [isLoading, setIsLoading] = useState(false);
 	const [data, setData] = useState([]);
 	const [error, setError] = useState(null);
@@ -19,7 +23,6 @@ export default function SearchScreen() {
 
 	useEffect(() => {
 		setIsLoading(true);
-
 		fetch(API_ENDPOINT)
 		.then(response => response.json())
 		.then(response => {
@@ -32,7 +35,7 @@ export default function SearchScreen() {
 			setError(err);
 		});
 	}, []);
-	//...
+
 	function renderHeader() {
 		return (
 			<View
@@ -53,69 +56,64 @@ export default function SearchScreen() {
 					style={{ backgroundColor: '#fff', paddingHorizontal: 20 }}
 				/>
 			</View>
-		);
+		)
 	}
 
 	const handleSearch = text => {
-		const formattedQuery = text.toLowerCase();
-		const filteredData = filter(fullData, user => {
-			return contains(user, formattedQuery);
-		});
-		setData(filteredData);
-		setQuery(text);
-	};
+		const formattedQuery = text.toLowerCase()
+		const filteredData = filter ( fullData, user =>
+			{ return contains (user, formattedQuery) }
+		)
+		setData(filteredData)
+		setQuery(text)
+	}
 
-	const contains = ({ name, email }, query) => {
+	const contains = ( { name, email }, query) => {
 		const { first, last } = name;
-		if (first.includes(query) || last.includes(query) || email.includes(query)) {
+		if (first.includes(query) || last.includes(query) || email.includes(query))
 			return true;
-		}
 		return false;
-	};
-
-	if (isLoading) {
-		return (
-			<View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-				<ActivityIndicator size="large" color="#5500dc" />
-			</View>
-		);
 	}
 
-	if (error) {
-		return (
-			<View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-				<Text style={{ fontSize: 18}}>
-					Error fetching data... Check your network connection!
-				</Text>
-			</View>
-		);
-	}
+	if (isLoading)
+		return <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+			<ActivityIndicator size="large" color="#5500dc" />
+		</View>
 
-	const API_ENDPOINT = `https://randomuser.me/api/?seed=1&page=1&results=20`;
+	if (error)
+		return <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+			<Text style={{ fontSize: 18}}>
+				Error fetching data... Check your network connection!
+			</Text>
+		</View>
 
-	return (
-		<View style={styles.container}>
-			<Text style={styles.text}>Favorite Contacts</Text>
-			<FlatList
-				data={data}
-				ListHeaderComponent={renderHeader}
-				keyExtractor={item => item.first}
-				renderItem={({ item }) => (
+	return <SafeAreaView style={styles.container}>
+		<Text style={styles.text}>Favorite Contacts</Text>
+		<FlatList
+			data={data}
+			ListHeaderComponent={renderHeader}
+			keyExtractor={ item => item.email }
+			renderItem={({ item }) => (
+				<TouchableOpacity
+					onPress={ () => props.navigation.navigate('Menu') }
+					activeOpacity={0.7}
+					style={styles.container}
+				>
 					<View style={styles.listItem}>
 						<Image
 							source={{ uri: item.picture.thumbnail }}
 							style={styles.coverImage}
 						/>
 						<View style={styles.metaInfo}>
-							<Text style={styles.title}>{`${item.name.first} ${
-								item.name.last
-							}`}</Text>
+							<Text style={styles.title}>
+								{ `${item.name.first} ${item.name.last}` }
+							</Text>
 						</View>
 					</View>
-				)}
-			/>
-		</View>
-	);
+				</TouchableOpacity>
+			)}
+		/>
+	</SafeAreaView>
 }
 
 const styles = StyleSheet.create({
