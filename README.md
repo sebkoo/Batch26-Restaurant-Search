@@ -10,7 +10,7 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 |Order View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-10-43-12.png](https://i.postimg.cc/6QtDjgv7/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-10-43-12.png)](https://postimg.cc/9Dg8zx1V)|
 |About View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-52.png](https://i.postimg.cc/zGWQwQj8/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-52.png)](https://postimg.cc/K1GQxJwH)|
 |Contact View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-57.png](https://i.postimg.cc/1zQjvKC6/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-57.png)](https://postimg.cc/dh561GKt)|
-|Locations View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-02.png](https://i.postimg.cc/tTRmj4H4/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-02.png)](https://postimg.cc/f3Fv7ZLG)|
+|Locations View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-07-46.png](https://i.postimg.cc/gJBHfSgq/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-07-46.png)](https://postimg.cc/8JMvvHQj)|
 |Home View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-07.png](https://i.postimg.cc/Hs8vHNFX/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-07.png)](https://postimg.cc/QHsJJf8d)|
 |Login View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-57-37.png](https://i.postimg.cc/vTcxw0pM/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-57-37.png)](https://postimg.cc/Wqc1MwNf)|
 |Detail View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-58-35.png](https://i.postimg.cc/rwS0T0Yd/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-58-35.png)](https://postimg.cc/cvL4MHWZ)|
@@ -36,9 +36,8 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 |Order View|[![Screenshot-1610996435.png](https://i.postimg.cc/nzCZ2gy4/Screenshot-1610996435.png)](https://postimg.cc/9R5vF8F0)|
 |About View|[![Screenshot-1610119443.png](https://i.postimg.cc/Yq22s1P5/Screenshot-1610119443.png)](https://postimg.cc/WtKPDJT8)|
 |Contact View|[![Screenshot-1610119525.png](https://i.postimg.cc/Nj5sgQBb/Screenshot-1610119525.png)](https://postimg.cc/Hr1DzDJ7)|
-
-
 |Locations View|[![Screenshot-1610119548.png](https://i.postimg.cc/G21dJYYS/Screenshot-1610119548.png)](https://postimg.cc/hJMkKX29)|
+
 |Home View|[![Screenshot-1610119567.png](https://i.postimg.cc/6qMKXmPD/Screenshot-1610119567.png)](https://postimg.cc/ctt27X0m)|
 |Drawer View|[![Screenshot-1610119599.png](https://i.postimg.cc/N06Wtn9p/Screenshot-1610119599.png)](https://postimg.cc/bGv6H3Rt)|
 
