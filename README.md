@@ -53,7 +53,7 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 
 ## Apps for Distribution and Deployment
 - iOS IPA: https://drive.google.com/file/d/1Y_EMpv3G2XFhi2paO_f13A1xQ7YSwthf/view?usp=sharing
-- Android APK
+- Android APK: https://drive.google.com/file/d/13Rn3D1rziqyutxjyWGKCxqAZJ_Zfy-FZ/view?usp=sharing
 
 ## Before release
 - [x] Finish my changes
