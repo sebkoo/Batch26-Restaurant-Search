@@ -37,9 +37,13 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 |About View|[![Screenshot-1610119443.png](https://i.postimg.cc/Yq22s1P5/Screenshot-1610119443.png)](https://postimg.cc/WtKPDJT8)|
 |Contact View|[![Screenshot-1610119525.png](https://i.postimg.cc/Nj5sgQBb/Screenshot-1610119525.png)](https://postimg.cc/Hr1DzDJ7)|
 |Locations View|[![Screenshot-1610119548.png](https://i.postimg.cc/G21dJYYS/Screenshot-1610119548.png)](https://postimg.cc/hJMkKX29)|
-
 |Home View|[![Screenshot-1610119567.png](https://i.postimg.cc/6qMKXmPD/Screenshot-1610119567.png)](https://postimg.cc/ctt27X0m)|
-|Drawer View|[![Screenshot-1610119599.png](https://i.postimg.cc/N06Wtn9p/Screenshot-1610119599.png)](https://postimg.cc/bGv6H3Rt)|
+|Login View|[![Screenshot-1611001094.png](https://i.postimg.cc/t4XDnxn6/Screenshot-1611001094.png)](https://postimg.cc/9rnyvzpX)|
+|Detail View|[![Screenshot-1611001183.png](https://i.postimg.cc/Hst9mkvk/Screenshot-1611001183.png)](https://postimg.cc/nCCDYpty)|
+|Search View|[![Screenshot-1611001214.png](https://i.postimg.cc/W3MJ75Q1/Screenshot-1611001214.png)](https://postimg.cc/r0wmVNVB)|
+|Feedback View|[![Screenshot-1611001271.png](https://i.postimg.cc/7YLfCPY6/Screenshot-1611001271.png)](https://postimg.cc/8sq19SvQ)|
+|Privacy View|[![Screenshot-1611001355.png](https://i.postimg.cc/7Z2P75vx/Screenshot-1611001355.png)](https://postimg.cc/QFjrZxxP)|
+|Drawer View|[![Screenshot-1611001406.png](https://i.postimg.cc/59KfRBb4/Screenshot-1611001406.png)](https://postimg.cc/py8N9nm4)|
 
 ## Project Technologies 
 - expo version: 4.0.17 
