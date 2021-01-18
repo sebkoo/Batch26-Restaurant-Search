@@ -31,7 +31,7 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 - support for iOS / Android ( both) 
 
 ## Before release
-- [x] Finish my changes
-- [x] Push my commits to GitHub
-- [] Open a pull request
+[x] Finish my changes
+[x] Push my commits to GitHub
+[] Open a pull request
 
