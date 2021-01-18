@@ -1,8 +1,7 @@
 # Batch26-Restaurant-Search
 JS React Native
 
-This is a demo project for Restaurant Searching to learn Reactive Native from FiveGuys app.
-It has basic features of order, web view, phone dial, location map, API call, login, detail, search, feedback, and privacy.
+This is a demo project for Restaurant Searching to learn Reactive Native from FiveGuys app, including the basic features of order, web view, phone dial, location map, API call, login, detail, search, feedback, and privacy.
 
 ## iOS Simulator
 |Feature|Description|
