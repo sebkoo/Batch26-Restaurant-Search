@@ -25,10 +25,10 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 
 
 ## Project technologies 
-### expo version: 4.0.17 
-### WebStorm version: 2020.3.1
-### node.js version: 14.15.3
-### support for iOS / Android ( both) 
+- expo version: 4.0.17 
+- WebStorm version: 2020.3.1
+- node.js version: 14.15.3
+- support for iOS / Android ( both) 
 
 ## Before release
 - [x] Finish my changes
