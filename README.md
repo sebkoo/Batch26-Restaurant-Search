@@ -1,7 +1,7 @@
 # Batch26-Restaurant-Search
 JS React Native
 
-This is for storing a demo project of batch 26 training for mobile applicaiton development.
+This is a demo project for Restaurant Searching to learn Reactive Native from FiveGuys app.
 
 ## iOS Simulator
 |Feature|Description|
@@ -22,6 +22,13 @@ This is for storing a demo project of batch 26 training for mobile applicaiton d
 |Locations View|[![Screenshot-1610119548.png](https://i.postimg.cc/G21dJYYS/Screenshot-1610119548.png)](https://postimg.cc/hJMkKX29)|
 |Home View|[![Screenshot-1610119567.png](https://i.postimg.cc/6qMKXmPD/Screenshot-1610119567.png)](https://postimg.cc/ctt27X0m)|
 |Drawer View|[![Screenshot-1610119599.png](https://i.postimg.cc/N06Wtn9p/Screenshot-1610119599.png)](https://postimg.cc/bGv6H3Rt)|
+
+
+## Project technologies 
+### expo version: 4.0.17 
+### WebStorm version: 2020.3.1
+### node.js version: 14.15.3
+### support for iOS / Android ( both) 
 
 ## Before release
 - [x] Finish my changes
