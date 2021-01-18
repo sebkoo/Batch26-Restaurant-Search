@@ -9,10 +9,15 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 |Splash View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-34-05.png](https://i.postimg.cc/NGJZQmFq/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-34-05.png)](https://postimg.cc/NLXd4yRp)|
 |Order View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-10-43-12.png](https://i.postimg.cc/6QtDjgv7/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-10-43-12.png)](https://postimg.cc/9Dg8zx1V)|
 |About View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-52.png](https://i.postimg.cc/zGWQwQj8/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-52.png)](https://postimg.cc/K1GQxJwH)|
-|ContactUs View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-57.png](https://i.postimg.cc/1zQjvKC6/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-57.png)](https://postimg.cc/dh561GKt)|
+|Contact View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-57.png](https://i.postimg.cc/1zQjvKC6/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-27-57.png)](https://postimg.cc/dh561GKt)|
 |Locations View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-02.png](https://i.postimg.cc/tTRmj4H4/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-02.png)](https://postimg.cc/f3Fv7ZLG)|
 |Home View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-07.png](https://i.postimg.cc/Hs8vHNFX/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-10-28-07.png)](https://postimg.cc/QHsJJf8d)|
-|Drwaer View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-11-52-39.png](https://i.postimg.cc/XNz1RW1n/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-08-at-11-52-39.png)](https://postimg.cc/fkYvdGhP)|
+|Login View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-57-37.png](https://i.postimg.cc/vTcxw0pM/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-57-37.png)](https://postimg.cc/Wqc1MwNf)|
+|Detail View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-58-35.png](https://i.postimg.cc/rwS0T0Yd/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-14-58-35.png)](https://postimg.cc/cvL4MHWZ)|
+|Search View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-10-43-48.png](https://i.postimg.cc/G2NhGd5w/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-10-43-48.png)](https://postimg.cc/ftcNhnsB)|
+|Feedback View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-01-11.png](https://i.postimg.cc/hGtxc8zC/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-01-11.png)](https://postimg.cc/Wdxt7k7r)|
+|Privacy View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-02-46.png](https://i.postimg.cc/Z5VB7976/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-02-46.png)](https://postimg.cc/JsHzthWh)|
+|Drawer View|[![Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-03-40.png](https://i.postimg.cc/CMkZyrrh/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-01-18-at-15-03-40.png)](https://postimg.cc/8skkM4V9)|
 
 ## Order Screens
 |Feature|Description|
@@ -30,7 +35,9 @@ This is a demo project for Restaurant Searching to learn Reactive Native from Fi
 |Splash View|[![Screenshot-1610119380.png](https://i.postimg.cc/N0K5P1Ks/Screenshot-1610119380.png)](https://postimg.cc/wtdq1R5Z)|
 |Order View|[![Screenshot-1610996435.png](https://i.postimg.cc/nzCZ2gy4/Screenshot-1610996435.png)](https://postimg.cc/9R5vF8F0)|
 |About View|[![Screenshot-1610119443.png](https://i.postimg.cc/Yq22s1P5/Screenshot-1610119443.png)](https://postimg.cc/WtKPDJT8)|
-|ContactUs View|[![Screenshot-1610119525.png](https://i.postimg.cc/Nj5sgQBb/Screenshot-1610119525.png)](https://postimg.cc/Hr1DzDJ7)|
+|Contact View|[![Screenshot-1610119525.png](https://i.postimg.cc/Nj5sgQBb/Screenshot-1610119525.png)](https://postimg.cc/Hr1DzDJ7)|
+
+
 |Locations View|[![Screenshot-1610119548.png](https://i.postimg.cc/G21dJYYS/Screenshot-1610119548.png)](https://postimg.cc/hJMkKX29)|
 |Home View|[![Screenshot-1610119567.png](https://i.postimg.cc/6qMKXmPD/Screenshot-1610119567.png)](https://postimg.cc/ctt27X0m)|
 |Drawer View|[![Screenshot-1610119599.png](https://i.postimg.cc/N06Wtn9p/Screenshot-1610119599.png)](https://postimg.cc/bGv6H3Rt)|
